@@ -1,16 +1,8 @@
 {
   "name": "food_flix_v2",
   "version": "1.0.0",
-  "description": "a food app",
+  "description": "Food flix",
   "main": "server.js",
-  "dependencies": {
-    "angular-ui-bootstrap": "^1.2.4",
-    "body-parser": "^1.15.0",
-    "express": "^4.13.4",
-    "path": "^0.12.7",
-    "request": "^2.69.0"
-  },
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
@@ -21,12 +13,17 @@
   },
   "keywords": [
     "food",
-    "flix"
+    "app"
   ],
-  "author": "me",
+  "author": "Eric and Minh",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/bombjester/food_flix/issues"
   },
-  "homepage": "https://github.com/bombjester/food_flix#readme"
+  "homepage": "https://github.com/bombjester/food_flix#readme",
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "express": "^4.13.4",
+    "request": "^2.69.0"
+  }
 }
