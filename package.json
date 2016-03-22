@@ -1,5 +1,5 @@
 {
-  "name": "Sample_Express",
+  "name": "food_flix",
   "description": "Sample Express Application to test out using Package.json to install dependencies",
   "dependencies": {
     "body-parser": "^1.14.2",
@@ -9,6 +9,21 @@
     "mongoose": "^4.4.2",
     "socket.io": "^1.4.5",
     "request": "^2.69.0"
- 
-  }
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "version": "1.0.0",
+  "main": "server.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bombjester/food_flix.git"
+  },
+  "author": "Eric Lee and Minh Van",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bombjester/food_flix/issues"
+  },
+  "homepage": "https://github.com/bombjester/food_flix#readme"
 }
