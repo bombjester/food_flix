@@ -18,6 +18,8 @@ Myapp.controller('modalcontrol', function ($scope, $uibModal, $log, apifactory) 
    
     
     $scope.form = function (){
+        console.log($scope.box);
+
     	$scope.show = true;
     	apifactory.search($scope.box, function(data){
     		

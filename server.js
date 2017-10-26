@@ -12,6 +12,6 @@ require('./server/config/routes.js')(app);
 app.use(express.static(path.join(__dirname, './client')));
 app.use(express.static(path.join(__dirname, './client/static/css')));
 
-var server = app.listen(process.env.PORT || 5000, function(){
-	console.log("Connected to 5000");
+var server = app.listen(process.env.PORT || 8000, function(){
+	console.log("Connected to 8000");
 })
